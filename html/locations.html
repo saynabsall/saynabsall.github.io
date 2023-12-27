@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device=width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/rooms.css">
+  <link rel="stylesheet" href="../css/locationstyles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav {
+      background-color: #555;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      margin: 0 10px;
+      display: inline-block;
+    }
+
+    .container {
+      display: flex;
+      max-width: 100%;
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      flex: 1;
+      margin: 20px 0;
+    }
+
+    .image {
+      flex: 1;
+    }
+
+    .image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .text {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .text h2 {
+      color: #333;
+    }
+
+    .text p {
+      color: #666;
+      text-align: center middle;
+    }
+    .locations {
+      background-color: #f0f0f0;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .location-item {
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+      height: 200px;
+      align-items: left;
+    }
+
+    .gallery:hover {
+      border: 1px solid #777;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    .gallery .desc {
+      padding: 15px;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5); /* Black see-through */
+      color: #f1f1f1;
+      width: 100%;
+      transition: .5s ease;
+      opacity: 0;
+      color: black;
+      font-size: 14px;
+      padding: 10px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+  </style>
+  <title>Location</title>
+</head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="index.html">
+          <img src="logo.png" alt="Logo">
+        </a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#AboutUs">About Us</a></li>
+        <li><a href="ourRooms.html">Our Rooms</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="#ContactUs">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+<div class="container">
+  <div class="image">
+    <img src="../images/background/source-2.png" alt="background">
+  </div>
+  <div class="text">
+    <h2>Welcome to hotel</h2>
+    <p>
+      Discover a delightful range of rooms we have to offer. we hope you have a wonderful stay!
+    </p>
+  </div>
+</div>
+<h2>Our Locations</h2>
+<div class="locations">
+
+
+<div class="gallery">
+  <a target="_blank" href="images/aberdeen.jpeg">
+    <img src="../images/aberdeen.jpeg" alt="Aberdeen" width="600" height="400">
+  </a>
+  <div class="desc">stay at our inn in aberdeen
+  </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/belfast.jpeg">
+    <img src="../images/belfast.jpeg" alt="Belfast" width="600" height="400">
+  </a>
+  <div class="desc">Stay at our wonderful inn in Belfast!</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/birmingham.jpeg">
+    <img src="../images/birmingham.jpeg" alt="birmingham" width="600" height="400">
+  </a>
+  <div class="desc">stay at our wonderful inn in birmingham!
+  </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/bristol.jpeg">
+    <img src="../images/bristol.jpeg" alt="bristol" width="600" height="400">
+  </a>
+  <div class="desc">stay at our wonderful inn in bristol!
+  </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/cardif.jpeg">
+    <img src="../images/cardif.jpeg" alt="cardiff" width="600" height="400">
+  </a>
+  <div class="desc">stay at our wonderful inn in cardiff!
+  </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/edinbrough.jpeg">
+    <img src="../images/edinbrough.jpeg" alt="edinbrough" width="600" height="400">
+  </a>
+  <div class="desc">stay at our wonderful inn in edinbrough!
+  </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/glassgow.jpeg">
+    <img src="../images/glassgow.jpeg" alt="glassgow" width="600" height="400">
+  </a>
+  <div class="desc">stay at our wonderful inn in glassgow!
+  </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/london.jpeg">
+    <img src="../images/london.jpeg" alt="london" width="600" height="400">
+  </a>
+  <div class="desc">stay at our wonderful inn in london!
+  </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/manchester.jpeg">
+    <img src="../images/manchester.jpeg" alt="manchester" width="600" height="400">
+  </a>
+  <div class="desc">stay at our wonderful inn in manchester!
+  </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/newcastle.jpeg">
+    <img src="../images/newcastle.jpeg" alt="newcastle" width="600" height="400">
+  </a>
+  <div class="desc">stay at our wonderful inn in new castle!
+  </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="images/norwich.jpeg">
+    <img src="../images/norwich.jpeg" alt="norwich" width="600" height="400">
+  </a>
+  <div class="desc">stay at our wonderful inn in norwich!
+  </div>
+</div>
+
+</body>
+</html>
